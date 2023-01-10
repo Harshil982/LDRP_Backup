@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800;900&family=Questrial&family=Roboto:wght@500&display=swap');
+.location-icon
+{
+    color: #1B6CE1;
+    border: 1px solid #1B6CE1;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: bold;
+    height: 2rem;
+    width: 2rem;
+}
+.title
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    position: relative;
+}
+.title::before
+{
+    position: absolute;
+    width: 5rem;
+    height: 2px;
+    background-color: #1B6CE1;
+    top: 0;
+    left: -2rem;
+}

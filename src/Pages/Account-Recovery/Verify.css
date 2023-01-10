@@ -1,0 +1,17 @@
+.otp-Container input
+{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 25px !important;
+    margin-top: 8px;
+}
+.otp-Container input:focus
+{
+    outline: 1px solid dodgerblue;
+    box-shadow: 0px 0px 5px dodgerblue;
+}
+.otp-main
+{
+    display: flex;
+    flex-wrap: wrap !important;
+}

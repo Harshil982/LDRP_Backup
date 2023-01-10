@@ -1,0 +1,21 @@
+.location_box {
+  display: flex;
+  flex-direction: column;
+  grid-column: 4/5;
+  align-items: center;
+  row-gap: 2rem;
+}
+.map iframe {
+  border-radius: 0.625rem;
+}
+.social ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.social ul li img {
+  width: 2.0881rem;
+  height: 2.0881rem;
+}

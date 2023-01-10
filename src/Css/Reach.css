@@ -1,0 +1,32 @@
+.reach_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  grid-column: 3/4;
+}
+.reach_box .title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.4375rem;
+  margin-bottom: 2rem;
+}
+.reach_box ul li {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  column-gap: 0.5rem;
+}
+.reach_box ul li:nth-child(1) {
+  width: 23rem;
+}
+.reach_box ul li .reach_icon {
+  width: 1.125rem;
+  height: 18px;
+}

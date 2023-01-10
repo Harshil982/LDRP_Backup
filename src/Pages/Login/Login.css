@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800;900&family=Questrial&family=Roboto:wght@500&display=swap');
+.Login-container
+{
+    background-color: #A5D7F3;
+    min-height: 100vh;
+}
+.wrapper-cont
+{
+    padding-top: 12vw;
+}
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	bottom: 10px;
+	list-style-type: none;
+}
+	
+.slick-dots li button {
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    text-indent: -9999px;
+}
+
+.slick-dots	li.slick-active button {
+    background-color: #FFFFFF;
+}
