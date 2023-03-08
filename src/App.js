@@ -11,13 +11,14 @@ import Verify from "./Pages/Account-Recovery/Verify";
 import AccountRecovery from "./Pages/Account-Recovery/AccountRecovery";
 import WelcomeAlumni from "./Pages/Welcome-Alumni/WelcomeAlumni";
 import CreateProfile from "./Pages/CreateProfile/CreateProfile";
+import { Dashboard } from "./Pages/Main-Dashboard/Dashboard";
 
 function App() {
   return (
     <div className="App">
       {/* <Login /> */}
-      {/* <SignupStepOne />
-      <SignupStepTwo />*/}
+      {/* <SignupStepOne /> */}
+      {/* <SignupStepTwo /> */}
       {/* <Verify />  */}
       {/* <AccountRecovery /> */}
       {/* <Header />
@@ -25,7 +26,8 @@ function App() {
       <ContactUs />
       <Footer /> */}
       {/* <WelcomeAlumni /> */}
-      <CreateProfile />
+      {/* <CreateProfile /> */}
+      <Dashboard />
     </div>
   );
 }
